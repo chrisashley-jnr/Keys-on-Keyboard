@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard on Keys</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">Keys on Keyboard <br>
+    <select name="all-keys" class="all-keys">
+      <option value="" class="key-option"> -Select a key- </option>
+      <option value="F" class="key-option">F</option>
+      <option value="F#" class="key-option">F#</option>
+      <option value="F#" class="key-option">G</option>
+      <option value="F#" class="key-option">G#</option>
+      <option value="F#" class="key-option">A</option>
+      <option value="F#" class="key-option">A#</option>
+      <option value="F#" class="key-option">B</option>
+      <option value="F#" class="key-option">C</option>
+      <option value="F#" class="key-option">C#</option>
+      <option value="F#" class="key-option">D</option>
+      <option value="F#" class="key-option">D#</option>
+      <option value="F#" class="key-option">E</option>
+      <option value="F#" class="key-option">F</option>
+    </select>
+    </div>
+
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>F</kbd>
+            <span class="sound">A</span>
+          </div>
+          <div data-key="87" class="key">
+            <kbd>F#</kbd>
+            <span class="sound">W</span>
+          </div>
+          <div data-key="83" class="key">
+            <kbd>G</kbd>
+            <span class="sound">S</span>
+          </div>
+          <div data-key="69" class="key">
+            <kbd>G#</kbd>
+            <span class="sound">E</span>
+          </div>
+          <div data-key="68" class="key">
+            <kbd>A</kbd>
+            <span class="sound">D</span>
+          </div>
+          <div data-key="82" class="key">
+            <kbd>A#</kbd>
+            <span class="sound">R</span>
+          </div>
+          <div data-key="70" class="key">
+            <kbd>B</kbd>
+            <span class="sound">F</span>
+          </div>
+          <div data-key="71" class="key">
+            <kbd>C</kbd>
+            <span class="sound">G</span>
+          </div>
+          <div data-key="89" class="key">
+            <kbd>C#</kbd>
+            <span class="sound">Y</span>
+          </div>
+          <div data-key="72" class="key">
+            <kbd>D</kbd>
+            <span class="sound">H</span>
+          </div>
+          <div data-key="85" class="key">
+            <kbd>D#</kbd>
+            <span class="sound">U</span>
+          </div>
+          <div data-key="74" class="key">
+            <kbd>E</kbd>
+            <span class="sound">J</span>
+          </div>
+          <div data-key="75" class="key">
+            <kbd>F</kbd>
+            <span class="sound">K</span>
+          </div>
+
+
+          <audio data-key="65" src="Sounds/key01.mp3"></audio>
+          <audio data-key="87" src="Sounds/key02.mp3"></audio>
+          <audio data-key="83" src="Sounds/key03.mp3"></audio>
+          <audio data-key="69" src="Sounds/key04.mp3"></audio>
+          <audio data-key="68" src="Sounds/key05.mp3"></audio>
+          <audio data-key="82" src="Sounds/key06.mp3"></audio>
+          <audio data-key="70" src="Sounds/key07.mp3"></audio>
+          <audio data-key="71" src="Sounds/key08.mp3"></audio>
+          <audio data-key="89" src="Sounds/key09.mp3"></audio>
+          <audio data-key="72" src="Sounds/key10.mp3"></audio>
+          <audio data-key="85" src="Sounds/key11.mp3"></audio>
+          <audio data-key="74" src="Sounds/key12.mp3"></audio>
+          <audio data-key="75" src="Sounds/key13.mp3"></audio>
+    
+    <script src="main.js"></script>
+          
+    </div>
+</body>
+</html>

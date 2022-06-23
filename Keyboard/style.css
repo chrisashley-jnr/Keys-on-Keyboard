@@ -1,0 +1,79 @@
+html {
+   font-size: 10px;
+   background: url('./martin-hexeberg-jp0VExvkRzY-unsplash.jpg') bottom center;
+   background-size: cover;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#main{
+    font-size: 10rem;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+.keys{
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    border: .4rem solid white;
+    border-radius: 1.5rem;
+    color: aliceblue;
+    font-size: 3.5rem;
+    margin: 1rem;
+    padding: 2rem 4.5rem;
+    transition: all 0.2s ease;
+    width: 2rem;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 3.5rem white;
+}
+
+.kbd{
+    display: block;
+    font-size: 3rem;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.sound{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #ffc600;
+}
+
+.all-keys{
+    height: 30px;
+    width: 110px;
+    text-align: center;
+    justify-self: center;
+    border: none;
+    margin: 50px;
+    background-color: #ffc600;
+    color: white;
+}
+
+.key-option{
+    height: fit-content;
+    width: fit-content;
+    background-color: #ffc600;
+    color: white;
+}
